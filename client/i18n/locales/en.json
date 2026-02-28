@@ -1,0 +1,59 @@
+{
+
+   
+  "welcome": "Welcome back,",
+  "something_went_wrong": "Something went wrong",
+  "try_again": "Try Again",
+  "no_bus_assigned": "No Bus Assigned",
+  "no_bus_description": "You haven't been assigned to a bus yet. Please contact the transport administrator.",
+  "capacity": "Capacity",
+  "current_route": "Current Route",
+  "ready_to_start_route": "Ready to Start Your Route?",
+  "live_tracking_description": "Tap the button below to start live tracking. Students will be able to see your location in real-time.",
+  "start_live_tracking": "Start Live Tracking",
+
+  "stop_tracking": "Stop Tracking",
+  "stop_tracking_description":"Are you sure you want to stop live tracking? Students will no longer see your location.",
+  "ready_to_start": "Ready to Start",
+  "button_heading_start": "Tap below to start broadcasting your location to students.",
+  "start_tracking_btn": "Start Live Tracking",
+  "broadcasting_live": "Broadcasting Live",
+  "duration": "Duration",
+  "live": "Live",
+  "location_request_title": "Location Access Required",
+  "location_request_description": "BusSafar needs access to your location to broadcast your position to students.",
+  "enable_location": "Enable Location.",
+
+
+  "logout_title": "Log Out",
+  "logout_description": "Are you sure you want to log out?",
+  "password_error_details": "Please fill in all fields",
+  "password_error_length": "New password must be at least 6 characters",
+  "password_error_not_match": "Passwords do not match",
+  "password_success": "Your password has been changed successfully",
+  "password_change_failed": "Failed to change password",
+  "account_information_title": "ACCOUNT INFORMATION",
+  "change_password_btn": "Change Password",
+  "logout_btn": "Log Out",
+  "current_password": "Current Password",
+  "current_password_placeholder":"Enter current password",
+  "new_password":"New Password",
+  "new_password_placeholder": "Enter new password",
+  "confirm_new_password":"New Password",
+  "confirm_new_password_placeholder": "Enter new password",
+
+
+  "login_failed": "Login failed. Please try again.",
+  "welcome_login": "Welcome to Transport App",
+  "welcome_login_sub": "Track your university bus in real-time",
+  "contact_admin_txt": "Contact your administrator for account access",
+  "username":"Username",
+  "password": "Password",
+  "sign_in": "Sign In",
+
+  "failed_to_load_bus": "Failed to load bus information",
+  "no_bus_description_student":"You haven't been assigned to a bus yet. Please contact your university transport office.",
+  "tap_bus_card_description": "Tap on your bus card to view detailed information and live location tracking when the driver activates it.",
+
+  "route": "Route"
+}

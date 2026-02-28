@@ -1,0 +1,60 @@
+{
+
+
+  "welcome": "خوش آمدید،",
+  "something_went_wrong": "کچھ غلط ہو گیا",
+  "try_again": "دوبارہ کوشش کریں",
+  "no_bus_assigned": "بس تفویض نہیں کی گئی",
+  "no_bus_description": "آپ کو ابھی تک بس تفویض نہیں کی گئی ہے۔ براہ کرم ٹرانسپورٹ ایڈمنسٹریٹر سے رابطہ کریں۔",
+  "capacity": "گنجائش",
+  "current_route": "موجودہ راستہ",
+  "ready_to_start_route": "کیا آپ اپنا راستہ شروع کرنے کے لئے تیار ہیں؟",
+  "live_tracking_description": "نیچے والے بٹن پر ٹیپ کریں تاکہ لائیو ٹریکنگ شروع ہو سکے۔ طلباء آپ کا مقام حقیقی وقت میں دیکھ سکیں گے۔",
+  "start_live_tracking": "لائیو ٹریکنگ شروع کریں",
+
+  "stop_tracking": "ٹریک کرنا بند کرو",
+  "stop_tracking_description":"کیا آپ لائیو ٹریکنگ روکنا چاہتے ہیں؟ طلباء آپ کا مقام نہیں دیکھ سکیں گے۔",
+  "ready_to_start": "شروع کرنے کے لیے تیار",
+  "button_heading_start": "طلباء کو اپنے مقام کی نشریات شروع کرنے کے لیے نیچے دبائیں",
+  "start_tracking_btn": "لائیو ٹریکنگ شروع کریں",
+  "broadcasting_live": "براڈکاسٹنگ لائیو",
+  "duration": "دورانیہ",
+  "live": "لائیو",
+  "location_request_title": "مقام تک رسائی درکار ہے",
+  "location_request_description": "بسسفار کو طلباء تک اپنی پوزیشن نشر کرنے کے لیے آپ کے مقام تک رسائی درکار ہے۔",
+  "enable_location": "مقام کو فعال کریں۔",
+
+
+  "logout_title": "لاگ آؤٹ",
+  "logout_description": "کیا آپ لاگ آؤٹ کرنا چاہتے ہیں؟",
+  "password_error_details": "تمام خانے پُر کریں",
+  "password_error_length": "نیا پاس ورڈ کم از کم 6 حروف کا ہونا چاہیے",
+  "password_error_not_match": "پاس ورڈز مماثل نہیں ہیں",
+  "password_success": "آپ کا پاس ورڈ تبدیل کر دیا گیا ہے",
+  "password_change_failed": "پاسورڈ تبدیل کرنے میں ناکام",
+  "account_information_title": "اکاؤنٹ کی معلومات",
+  "change_password_btn": "پاس ورڈ تبدیل کریں",
+  "logout_btn": "لاگ آؤٹ",
+  "current_password": "موجودہ پاس ورڈ",
+  "current_password_placeholder":"موجودہ پاس ورڈ درج کریں",
+  "new_password": "نیا پاس ورڈ",
+  "new_password_placeholder": "نیا پاس ورڈ درج کریں",
+  "confirm_new_password":"نیا پاس ورڈ",
+  "confirm_new_password_placeholder": "نیا پاس ورڈ درج کریں",
+
+
+  "login_failed": "لاگ ان ناکام ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔",
+  "welcome_login": "ٹرانسپورٹ ایپ میں خوش آمدید",
+  "welcome_login_sub": "ریئل ٹائم میں اپنی یونیورسٹی کی بس کو ٹریک کریں",
+  "contact_admin_txt": "اکاؤنٹ تک رسائی کے لیے اپنے منتظم سے رابطہ کریں",
+
+  "username":"یوزر نیم ",
+  "password": "پاس ورڈ",
+  "sign_in": "لاگ ان",
+
+  "failed_to_load_bus": "بس کی معلومات لوڈ کرنے میں ناکام",
+  "no_bus_description_student":"آپ کو ابھی تک بس کے لیے تفویض نہیں کیا گیا ہے۔ براہ کرم اپنے یونیورسٹی کے ٹرانسپورٹ آفس سے رابطہ کریں۔",
+  "tap_bus_card_description": "ڈرائیور کے فعال ہونے پر تفصیلی معلومات اور لائیو لوکیشن ٹریکنگ دیکھنے کے لیے اپنے بس کارڈ پر ٹیپ کریں۔",
+
+  "route": "راستہ"
+}
