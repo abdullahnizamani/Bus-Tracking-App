@@ -1,50 +1,125 @@
-# Welcome to your Expo app 👋
+# 🚌 BusApp | Real-Time Transit & Driver Dashboard
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A high-performance, real-time bus tracking application built with **React Native** and **Expo**. This platform provides drivers with a professional dashboard to broadcast their location and commuters with a live map to track transit progress.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Features
 
-   ```bash
-   npm install
-   ```
+### 👨‍✈️ Driver Experience
 
-2. Start the app
+- **Live Tracking Dashboard:** Real-time speed (km/h) and trip duration monitoring.
+- **Safety Navigation Guard:** Prevents accidental app closing or back-navigation during active trips via a confirmation alert.
+- **Visual Identity:** Instant access to bus registration details, capacity, and route strings.
+- **Haptic Intelligence:** Physical vibration feedback for critical actions like starting/stopping a trip.
 
-   ```bash
-   npx expo start
-   ```
+### 🗺️ Technical Highlights
 
-In the output, you'll find options to open the app in a
+- **Real-Time Sync:** Uses Firebase Realtime Database for sub-second GPS updates and live streaming.
+- **Vector Maps:** Powered by Mapbox GL with smooth 60fps rendering and 3D terrain support.
+- **Theming:** Full Light/Dark mode support with a custom design system (Spacing, Shadows, BorderRadius).
+- **Localization:** Multi-language support using `i18next`.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🏗️ System Architecture
 
-## Get a fresh project
+The application uses a hybrid architecture to balance security and performance:
 
-When you're ready, run:
+1. **REST API (Laravel/Node.js)**  
+   Handles authentication, bus assignments, and persistent profile data.
+
+2. **Firebase Realtime Database**  
+   Handles high-frequency GPS data (coordinates, speed, heading).
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** React Native (Expo)
+- **Language:** TypeScript
+- **State Management:** React Context API + Hooks
+- **Real-Time Database:** Firebase Realtime Database
+- **Map Engine:** @rnmapbox/maps
+- **Animations:** React Native Reanimated
+- **Icons:** Expo Vector Icons (Feather)
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Prerequisites
+
+- Node.js (v18+)
+- Expo Go app (Android/iOS) or emulator
+- Mapbox Access Token
+- Firebase project configured
+
+---
+
+### 2️⃣ Installation
 
 ```bash
-npm run reset-project
+# Clone the repository
+git clone https://github.com/abdullahnizamani/Bus-Tracking-App.git
+
+# Navigate to the project
+cd Bus-Tracking-App
+# Install dependencies
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+### 3️⃣ Environment Setup
 
-To learn more about developing your project with Expo, look at the following resources:
+Create a `.env` file in the root directory:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```env
+EXPO_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token_here
+EXPO_PUBLIC_FIREBASE_API_KEY=your_key
+EXPO_PUBLIC_API_URL=https://your-api-endpoint.com
+```
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+### 4️⃣ Running the App
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+# Start Expo development server
+npx expo start
+```
+
+---
+
+## 🗂️ Project Structure
+
+```text
+├── assets/             # Images, fonts, branding
+├── client/
+│   ├── components/     # Reusable UI components
+│   ├── constants/      # Theme configuration
+│   ├── contexts/       # Global state (Auth, Theme)
+│   ├── hooks/          # Custom hooks
+│   ├── lib/            # API & Firebase config
+│   ├── navigation/     # Navigation setup
+│   └── screens/        # Main application screens
+└── types/              # TypeScript types/interfaces
+```
+
+---
+
+## 🔒 Permissions
+
+The app requires:
+
+- **Location (Foreground):** Required for active trip tracking.
+- **Location (Background):** Optional — continues tracking when switching apps.
+- **Haptics:** For vibration feedback during key actions.
+
+---
+
+
+## 📄 License
+
+Distributed under the MIT License. See the `LICENSE` file for more information.
